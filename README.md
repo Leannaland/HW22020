@@ -10,9 +10,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 I Created the following files(`index.html`, `portfolio.html` and `contact.html).
 
-Using Bootstrap, I developed:
--A navbar
--A responsive layout
+Using Bootstrap, I developed a navbar with a responsive layout and 
 
    * Responsive images
 
