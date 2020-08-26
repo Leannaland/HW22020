@@ -13,11 +13,25 @@ a {
     color: white;
 }
 
-/* Styling Id/Class/Elements to contact HTML File */
 
-h1 {
+
+h5 {
     text-align: center;
-    Color: white
+    Color: black;
+    font-size: 35px; 
+ 
+}
+
+/* Styling Id/Class/Elements to Index HTML File */
+
+.Paragraphfloat{ 
+    float: right;
+    margin-left: 40px;
+}
+
+.ImageFloat {
+    Float: left;
+    margin-right: 40px;
 }
 
 /* Styling Id/Class/Elements to Portfolio  HTML File */

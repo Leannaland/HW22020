@@ -4,20 +4,10 @@
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
 
 
-## Directions
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+I created a responive mobile model by first by first creating the following files(`index.html`, `portfolio.html` and `contact.html").
 
-I Created the following files(`index.html`, `portfolio.html` and `contact.html).
-
-Using Bootstrap, I developed a navbar with a responsive layout and 
-
-   * Responsive images
-
-* The Bootstrap portfolio should minimize the use of media queries.
-
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
-
+Using Bootstrap, I developed a navbar with a responsive layout and Responsive images
 ### Hints
 
 * Use Bootstrap's grid system (containers, rows, and columns).
