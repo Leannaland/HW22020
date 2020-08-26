@@ -1,0 +1,25 @@
+
+/* Styling Elements to all HTML Files */
+
+body {
+    background-image: url("../HW22020/Assets/Images/BackgroundImage.jpg"); 
+   }
+
+nav { 
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+/* Styling Id/Class/Elements to contact HTML File */
+
+h1 {
+    text-align: center;
+    Color: white
+}
+
+/* Styling Id/Class/Elements to Portfolio  HTML File */
+
+/* Styling Id/Class/Elements to Contact Me  HTML File */
