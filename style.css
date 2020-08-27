@@ -7,6 +7,7 @@ body {
 
 nav { 
     background-color: black;
+    margin: auto;
 }
 
 a {
@@ -33,6 +34,7 @@ h5 {
     Float: left;
     margin-right: 40px;
 }
+
 
 /* Styling Id/Class/Elements to Portfolio  HTML File */
 
