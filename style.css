@@ -18,7 +18,7 @@ a {
 
 h5 {
     text-align: center;
-    Color: black;
+    color: black;
     font-size: 35px; 
  
 }
@@ -36,6 +36,14 @@ h5 {
 }
 
 
-/* Styling Id/Class/Elements to Portfolio  HTML File */
+@media (max-width: 576px) {
+   .MediaQuery {
+        width: 300px;
+        height: 300px;
+    } 
+     
+
+}
+/* Styling Id/Class/Elements to Portfolio  HTML File */.
 
 /* Styling Id/Class/Elements to Contact Me  HTML File */
