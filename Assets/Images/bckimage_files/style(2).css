@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a img {
+    border: none;
+}
+
+#ad {
+    background-image: url("images/300x250.png");
+}
+
+#logo {
+    position: absolute;
+    z-index: 10;
+    top: 31px;
+    left: 17px;
+    width: 114px;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Quasi Reg";
+    src: url("fonts/Quasimoda-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Quasi SemiBold";
+    src: url("fonts/Quasimoda-SemiBold.otf") format("opentype");
+}
+
+/*<----------feed items---------->*/
+
+#first_tab {
+    width: 108px;
+    height: 154px;
+    position: absolute;
+    top: 17px;
+    left: 171px;
+    border-radius: 5px;
+}
+
+.viewport {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    border-spacing: 0px !important;
+}
+
+.items {
+    height: 154px;
+}
+
+.item_image {
+    float: left;
+    width: 108px;
+    line-height: 108px;
+    text-align: center;
+}
+
+.item_image img {
+    vertical-align: middle;
+    max-height: 106px;
+}
+
+.item_name {
+    position: absolute;
+    top: 107px;
+    width: 98px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Quasi Reg";
+    padding-left: 5px;
+}
+
+/*<----------Nav Arrows---------->*/
+
+.nav_arrows {
+    position: absolute;
+    top: 143px;
+    left: 0px;
+}
+
+.nav_arrows li {
+    position: absolute;
+    top: 0px;
+}
+
+.nav_arrows li.nav_previous {
+    left: 4px;
+}
+
+.nav_arrows li.nav_next {
+    left: 97px;
+}
+
+.nav_arrows li a {
+    display: block;
+    overflow: hidden;
+    width: 8px;
+    height: 12px;
+    text-indent: -999em;
+}
+
+.nav_arrows li.nav_previous a {
+    background-image: url(images/arrows.png);
+    background-position: 0px 0px;
+    background-size: 15px;
+}
+
+.nav_arrows li.nav_next a {
+    background-image: url(images/arrows.png);
+    background-position: 8px 0px;
+    background-size: 15px;
+}
+
+.nav_previous:hover, .nav_next:hover {
+    opacity: 0.5;
+}

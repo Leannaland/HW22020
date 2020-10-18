@@ -2,56 +2,124 @@
 <html>
 
 <head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
     <title> About Me </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet"  type="text/css" href="style.css">
+   
+
+    <!-- <script src="https://kit.fontawesome.com/193488324e.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<link rel="stylesheet"  type="text/css" href="style.css">   
 </head>
 <body>
    
 
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="./portfolio.html">Leanna's Portfolio</a>
+ <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="./portfolio.html">Leanna </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-expand-lg" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="./index.html">About Me <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="./index.html"> Home <span class="sr-only">(current)</span></a>
             </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact Me</a>
             </li>
+
+           
+    
     
           </ul>
         </div>
       </nav>
-    <br> </br>
-        <div class="card" style="width: 50rem; margin: auto;">
-        <div class="card-body">
-          <h5 class="card-title"> About Me</h5>
-          <img src="Assets/Images/AboutMePhoto.jpg" alt="Leanna at Zeta HQ" width="300" height="400"  class="ImageFloat"> 
-          <p class="ParagraphFloat" > Welcome to Leanna's online portolio. Here, you will find details on all of her projects as well get an opportunity to contact her directly. 
-              Before you move on, continue reading this message to learn alittle more about her. 
-<br> </br>
-              Leanna is proud cleveland native that is currently seeking SDE roles in Seattle, DC and Arizona. In 2016, she obtained a Bachelors Degree in business 
-              from Baldwin Wallace University and currently works for Amazon as a Human Resource Business Partner. Along with making strides in her professional life Leanna is also 
-              taking on Skills Based Training in Full Stack Development at Case Western Reserve University with an expected completion date of February 2021. 
 
-<br> </br> 
-            Leanna is very excited to purse new endevours next year in the world of Software Development! If you are interested in learning more about her skills and projects 
-            please take a look at the Projects section of the site. If you are interested in collaborating or interested in an any Q&A feel free to message select Contact Me in the navigation bar 
-</p>
+      <br></br> 
+
+<!--Jumbo -->
+
+<!-- <div class="card Indexcard" style="width: 50rem; height: 40rem;">
+  <div class="card-body">
+    <img src="Assets/Images/IMG_4920.JPG" alt="Leanna at Zeta HQ" width="300" height="300"  class="ImageFloat">
     
-          </p>
-        
+    <h5 class="card-title">Hello, world! </h5>
+    <p class="card-subtitle mb-2 text-muted"> My Name is Leanna </p>
+    <p class="card-text">HR Professional and Aspiring FullStack Web Developer</p>
+    <p>Find Me
+  <div>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-github"></i>
+  </div>
+  </p>
+</div>  -->
+
+<!-- Carousel -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <div class="card">
+        <div class="card-body">
+          <h1>Hello! I am Leanna</h1>
+          <h2> </h2>
         </div>
       </div>
-      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="card">
+        <div class="card-body">
+          <p class="ParagraphFloat" > Welcome to Leanna's online portolio. Here, you will find details on all of her projects as well get an opportunity to contact her directly. 
+            Before you move on, continue reading this message to learn alittle more about her. 
+<br> </br>
+            Leanna is proud cleveland native that is currently seeking SDE roles in Seattle, DC and Arizona. In 2016, she obtained a Bachelors Degree in business 
+            from Baldwin Wallace University and currently works for Amazon as a Human Resource Business Partner. Along with making strides in her professional life Leanna is also 
+            taking on Skills Based Training in Full Stack Development at Case Western Reserve University with an expected completion date of February 2021. 
 
+<br> </br> 
+          Leanna is very excited to purse new endevours next year in the world of Software Development! If you are interested in learning more about her skills and projects 
+          please take a look at the Projects section of the site. If you are interested in collaborating or interested in an any Q&A feel free to message select Contact Me in the navigation bar 
+</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="card">
+        <div class="card-body">
+          <p>Find Me
+            <div>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 </body>
 </html>

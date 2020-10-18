@@ -2,16 +2,19 @@
 /* Styling Elements to all HTML Files */
 
 body {
-    background-image: url("../HW22020/Assets/Images/BackgroundImage.jpg"); 
-   }
+    background-image: url("../HW22020/Assets/Images/cool-background.svg"); 
+    background-size: cover;
+}
 
 nav { 
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     margin: auto;
+    opacity: 85%;
 }
 
 a {
     color: white;
+    font-family: 'Just Me Again Down Here', cursive;
 }
 
 
@@ -25,15 +28,34 @@ h5 {
 
 /* Styling Id/Class/Elements to Index HTML File */
 
+.Indexcard {
+    margin: auto; 
+    background-image: url('../HW22020/Assets/cool-background\ copy.png');
+    background-size: cover;
+   box-shadow: 10px 10px 5px black;
+    
+}
+
+
+
+p {
+    text-align: center;
+    
+}
+
 .Paragraphfloat{ 
-    float: right;
-    margin-left: 40px;
+    text-align: center;
+    
 }
 
 .ImageFloat {
-    Float: left;
-    margin-right: 40px;
-}
+    float: right;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+   
+} 
 
 
 @media (max-width: 576px) {
@@ -44,6 +66,12 @@ h5 {
      
 
 }
-/* Styling Id/Class/Elements to Portfolio  HTML File */.
+/* Styling Id/Class/Elements to Portfolio  HTML File */
 
 /* Styling Id/Class/Elements to Contact Me  HTML File */
+
+/* fonts */
+ /* font-family: 'Amatic SC', cursive; */
+ /* font-family: 'Bungee Shade', cursive; */
+/*font-family: 'Julius Sans One', sans-serif; */
+/* font-family: 'Just Me Again Down Here', cursive; */
