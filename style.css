@@ -1,10 +1,6 @@
 
 /* Styling Elements to all HTML Files */
 
-body {
-    background-image: url("../HW22020/Assets/Images/cool-background.svg"); 
-    background-size: cover;
-}
 
 nav { 
     background-color: rgb(24, 24, 24);
@@ -14,7 +10,7 @@ nav {
 
 a {
     color: white;
-    font-family: 'Just Me Again Down Here', cursive;
+    
 }
 
 
@@ -37,6 +33,22 @@ h5 {
 }
 
 
+.shapeandsize {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+}
+
+.cardsize { 
+    height: 400px;
+    background: bisque;
+}
+
+/* .carouselbkrd {
+    background-image: url("../HW22020/Assets/woodimage.jpg"); 
+    background-size: cover;
+} */
 
 p {
     text-align: center;
